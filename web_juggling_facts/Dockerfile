@@ -1,4 +1,4 @@
-FROM alpine
+FROM alpine:3.18.3
 
 # Setup user
 RUN adduser -D -u 1000 -g 1000 -s /bin/sh www
